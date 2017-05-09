@@ -36,6 +36,7 @@ var port = process.env.PORT || app.get('PORT');
 
 app.listen(port, function(){
     console.log('The magic happens at http://localhost:' + port)
+    console.log('Dit is een extra toevoeging')
 });
 
 module.exports = app;
